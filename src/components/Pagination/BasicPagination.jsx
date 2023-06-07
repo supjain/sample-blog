@@ -36,9 +36,8 @@ const BasicPagination = () => {
               <li
                 key={index}
                 className={currentPage === index + 1 ? "active" : ""}
-                onClick={() => paginate(index + 1)}
               >
-                <a href="#">{index + 1}</a>
+                <button onClick={() => paginate(index + 1)}>{index + 1}</button>
               </li>
             ))}
           </ul>
