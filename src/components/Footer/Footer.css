@@ -1,0 +1,32 @@
+
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--grey);
+    padding:2rem 0 2rem 2rem; 
+}
+
+.footer-left{
+    display:flex;
+    gap:2rem
+}
+.footer-right{
+    padding-right: 2rem;
+}
+.contact-link{
+    text-decoration: none;
+    color: var(--white);
+    font-weight: bold;
+}
+.about-link{
+    text-decoration: none;
+    color:var(--white);
+    font-weight: bold;
+}
+
+.copyright-claim{
+    text-align: center;
+    color:var(--white);
+    font-style: italic;
+}
