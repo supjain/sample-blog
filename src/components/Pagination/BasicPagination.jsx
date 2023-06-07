@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import BlogData from "../../utils/BlogData";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./BasicPagination.css";
 
 const BasicPagination = () => {

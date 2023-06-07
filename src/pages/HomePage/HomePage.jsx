@@ -1,6 +1,5 @@
-import BlogCard from "../../components/BlogCard/BlogCard";
 import BasicPagination from "../../components/Pagination/BasicPagination";
-import blogs from "../../utils/BlogData";
+
 import "./HomePage.css";
 
 const HomePage = () => {
