@@ -12,4 +12,4 @@ jobs:
       - name: Install Dependencies
         run: npm ci
       - name: Build Code
-        run: npm run deploy
+        run: npm run build
